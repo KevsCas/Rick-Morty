@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwpPkdvk9V3u_S3BpIgoA7XDyp7I2EfzhN7ODKzNn-ghTdMhdPakqHWx6J1DQRC-xBwXimxZjHF0mKll4hXsAe73mUC4MpnSPL9vlKfd6upkB1O56l0_7TmUjaaQFQ24tlYriw_BqZYeS7USCTn5tdEoG4Hzh6I8MhNeK2Qb8CLBqAXV15ZALX3T9V/w1600/rick%20and%20morty%20anime.webp");
+    background-color: #fff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Peralta', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h1{
+    margin-top: 5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 700;
+    color: #80f1f5;
+    text-shadow: 1px 1px 1px #229b09dc,
+        1px 2px 1px #25a80bdc,
+        1px 3px 1px #209109dc,
+        1px 4px 1px #1d8807dc,
+        1px 5px 1px #1b5205,
+        1px 6px 1px #1d5805,
+        1px 7px 1px #1d5805,
+        1px 8px 1px #063502,
+        1px 9px 1px #052e02,
+        1px 10px 1px #052902,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-container{
+    max-width: 25rem;  
+    display: flex;
+    margin: 1rem;
+}
+
+#container {
+    margin: 1rem;
+    background-color: rgba(148, 223, 233, 0.3);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(168, 224, 228, 0.625);
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;   
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    height: 4rem;
+    width: 2.5rem;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.8);
+}
+
+.next{
+    clip-path: polygon(100% 53%, 0 0, 0 100%);
+    background-color: rgb(255, 0, 0);
+}
+
+.next:hover{
+    background-color: rgb(238, 54, 54);
+}
+
+.preview{
+    clip-path: polygon(100% 100%, 100% 0, 0 54%);
+    background-color: rgb(0, 255, 0);
+}
+
+.preview:hover{
+    background-color: rgb(58, 233, 58);
+}
+
+.data-api-nombre{
+    color: green;
+}
+.data-api-status{
+    color: green;
+}
+.data-api-especie{
+    color: green;
+}
+.rick{
+    height: 20 rem;
+    width: 10rem;
+    position: absolute;
+    bottom: 0;
+    left: 15rem;
+}
+.morty{
+    height: 25 rem;
+    width: 15rem;
+    position: absolute;
+    bottom: 0;
+    right: 13rem;
+}
+.meeseeks{
+    max-height: 5rem;
+    max-width: 10rem;
+    position: absolute;
+    top: 0;
+    left: 37rem;
+ 
+}
+.text-cont-title{
+    width: 10rem;
+    text-align: center;
+}
